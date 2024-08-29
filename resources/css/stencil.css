@@ -1,0 +1,62 @@
+
+/*Navegation bar*/
+nav{
+    padding-right: 50px;
+    margin:25px;
+}
+
+nav i{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/*Main*/
+
+/*Footer*/
+
+footer{
+    background: black;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 13px;
+}
+
+footer .row div{
+    padding: 10px;
+}
+
+footer i{
+    font-size: 25px;
+}
+
+@media screen and (max-width:900px){
+
+    #principal-image{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .title-principal, .text-principal{
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width:430px){
+
+
+    nav{
+        padding-right:0px;
+        margin:0px;
+    }
+    
+
+    #principal-image{
+        max-width: 200px;
+    }
+}
