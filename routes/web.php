@@ -7,4 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('Home',[AppController::class,'home']);
+Route::get('home',[AppController::class,'home']);
+Route::get('home/book',[AppController::class,'book'])->name('app.book');

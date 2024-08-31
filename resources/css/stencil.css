@@ -1,8 +1,7 @@
 
 /*Navegation bar*/
 nav{
-    padding-right: 50px;
-    margin:25px;
+    margin: 0px;
 }
 
 nav i{
@@ -10,8 +9,9 @@ nav i{
     font-weight: bolder;
 }
 
-
 /*Main*/
+
+
 
 /*Footer*/
 
@@ -21,6 +21,11 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
     font-size: 13px;
+}
+
+
+footer .row, footer div{
+    background: black;
 }
 
 footer .row div{
