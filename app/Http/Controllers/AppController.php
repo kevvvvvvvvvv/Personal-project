@@ -14,4 +14,9 @@ class AppController extends Controller
         $book = Book::paginate();
         return view('app.book',compact('book'));
     }
+
+    public function result(){
+        $book= Book::all();
+        return view('app.result',compact('book'));
+    }
 }
